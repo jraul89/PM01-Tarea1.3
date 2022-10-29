@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".ActivityMenu">
+
+    <Button
+        android:id="@+id/btncrear"
+        android:layout_width="188dp"
+        android:layout_height="38dp"
+        android:background="#474444"
+        android:cursorVisible="false"
+        android:foregroundTint="#FF5722"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="Insertar Datos"
+        android:textColor="#F1EFEF"
+        android:textColorHighlight="#4CAF50"
+        android:textColorHint="#201F1F"
+        app:iconTint="#706D6D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607"
+        app:rippleColor="#535353" />
+
+    <Button
+        android:id="@+id/btnconsultar"
+        android:layout_width="188dp"
+        android:layout_height="38dp"
+        android:text="Consultar Datos"
+        android:textColorHint="#DAD3D3"
+        android:textColorLink="#0F575555"
+        app:iconTint="#7A7979"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
